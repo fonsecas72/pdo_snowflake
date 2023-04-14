@@ -159,7 +159,7 @@ To build the PHP driver for Windows:
 
    .. parsed-literal::
 
-       .\\scripts\\run_build_pdo_snowflake.bat x64 Release |win-vs-version| C:\\php-sdk
+       .\\scripts\\run_build_pdo_snowflake.bat x64 Release |win-vs-version| |win-php-version| C:\\php-sdk
 
 #.  Copy :code:`php_pdo_snowflake.dll` from the directory where you built the driver to the PHP extension 
     directory (the same directory that contains the :code:`php_pdo.dll file`). Usually, the PHP extension 
